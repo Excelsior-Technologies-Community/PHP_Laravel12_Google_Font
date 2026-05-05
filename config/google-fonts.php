@@ -12,10 +12,11 @@ return [
 
     'fonts' => [
 
-        'default' => 'https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap',
+        'poppins' => 'https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap',
 
-        'heading' => 'https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap',
+        'playfair' => 'https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap',
 
+        'roboto' => 'https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap',
     ],
 
     /*
@@ -47,7 +48,7 @@ return [
      * When something goes wrong fonts are loaded directly from Google.
      * With fallback disabled, this package will throw an exception.
      */
-    'fallback' => ! env('APP_DEBUG'),
+    'fallback' => !env('APP_DEBUG'),
 
     /*
      * This user agent will be used to request the stylesheet from Google Fonts.
