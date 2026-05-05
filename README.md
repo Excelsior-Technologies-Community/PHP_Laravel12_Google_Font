@@ -341,3 +341,7 @@ PHP_Laravel12_Google_Font
 Your PHP_Laravel12_Google_Font Project is now ready!
 
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> development
